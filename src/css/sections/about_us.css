@@ -1,0 +1,31 @@
+.section-about-us { 
+padding: 100px 0;
+}
+
+.container {
+padding: 0 60px;
+}
+
+.about-us-title {}
+
+.about-us-title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    bottom: -1px;
+    position: absolute;
+}
+
+.about-us-subtitle {}
+
+.about-us-text {}
+
+.about-us-list {}
+
+.about-us-list-item {}
+
+.about-us-animation {}
+
+.about-us-img {}
