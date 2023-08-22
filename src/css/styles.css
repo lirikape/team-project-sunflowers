@@ -23,7 +23,6 @@
 --bc-dark: #7A7A7A;
 ----blue-font: #0A224A;
 
-
 }
 
 h1,
@@ -58,4 +57,28 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+/* container */
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+/* Dasktop styles */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Playfair Display';
+  background-color: var(--white);
 }
