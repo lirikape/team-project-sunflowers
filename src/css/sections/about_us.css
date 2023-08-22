@@ -73,7 +73,7 @@
 }
 
 .about-us-bg-img {
-  width: 100%;
+  min-width: 375px;
 }
 
 /*
