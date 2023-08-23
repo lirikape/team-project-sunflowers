@@ -1,18 +1,19 @@
-/**
+/*
   |============================
   | include css partials with
   | default @import url()
   |============================
 */
-@import url('./sections/header.css');
-@import url('./sections/about_us.css');
-@import url('./sections/our_products.css');
-@import url('./sections/prices.css');
-@import url('./sections/bestsellers.css');
-@import url('./sections/reviews.css');
-@import url('./sections/newsletter.css');
-@import url('./sections/contacts.css');
-@import url('./sections/footer.css');
+@import url('/src/css/reset.css');
+@import url('/src/css/sections/header.css');
+@import url('/src/css/sections/about_us.css');
+@import url('/src/css/sections/our_products.css');
+@import url('/src/css/sections/prices.css');
+@import url('/src/css/sections/bestsellers.css');
+@import url('/src/css/sections/reviews.css');
+@import url('/src/css/sections/newsletter.css');
+@import url('/src/css/sections/contacts.css');
+@import url('/src/css/sections/footer.css');
 
 :root {
   /* colors */
@@ -76,7 +77,9 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1439.98px) {
   .container {
     max-width: 768px;
+
     padding: 0 32px;
+
   }
 }
 /* Dasktop styles */
