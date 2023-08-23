@@ -19,7 +19,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./src/css/styles.css" />
-    <link rel="stylesheet" href="/team-project-sunflowers/assets/index-638c5818.css">
+    <link rel="stylesheet" href="/team-project-sunflowers/assets/index-8156446b.css">
   </head>
   <body>
     <header>
@@ -134,6 +134,8 @@
     <title>Document</title>
 
     <!-- CSS Styles -->
+    <link rel="stylesheet" href="/src/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/src/css/styles.css" type="text/css" />
     
   </head>
   <body>
@@ -163,18 +165,48 @@
             </li>
           </ul>
         </div>
-        <div>
-          <img
+      </div>
+      <div class="about-us-bg-img">
+        <picture>
+          <source
             srcset="
-              ./src/img/about-us/about-us.png    1x,
-              ./src/img/about-us/about-us@2x.png 2x
+              /src/img/about-us/phone/about-us.png    1x,
+              /src/img/about-us/phone/about-us@2x.png 2x
             "
-            src="./src/img/about-us/about-us.png"
+            media="(min-width: 320px)"
+          />
+          <source
+            srcset="
+              /src/img/about-us/tablet/about-us.png    1x,
+              /src/img/about-us/tablet/about-us@2x.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              /src/img/about-us/desktop/about-us.png    1x,
+              /src/img/about-us/desktop/about-us@2x.png 2x
+            "
+            media="(min-width: 1440px)"
+          />
+          <img
+            class="about-us-img"
+            src="/src/img/about-us/desktop/about-us.png"
+            alt="Stylish room with japanese tree and white sofa in it"
+            width="704"
+          />
+        </picture>
+
+        <!-- <img
+            srcset="
+              /src/img/about-us/desktop/about-us.png    1x,
+              /src/img/about-us/desktop/about-us@2x.png 2x
+            "
+            src="/src/img/about-us/desktop/about-us.png"
             alt="Stylish room with japanese tree and white sofa in it"
             class="about-us-img"
             width="536"
-          />
-        </div>
+          /> -->
       </div>
     </section>
   </body>
