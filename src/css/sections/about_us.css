@@ -60,7 +60,7 @@ body {
   width: 30px;
   height: 1px;
   border-radius: 2px;
-  background-color: var(----blue-font, #0a224a);
+  background-color: var(--blue-font, #0a224a);
 }
 
 .about-us-subtitle {
