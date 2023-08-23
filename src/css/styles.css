@@ -79,7 +79,6 @@ img {
     max-width: 768px;
 
     padding: 0 32px;
-
   }
 }
 /* Dasktop styles */
@@ -91,6 +90,5 @@ img {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Playfair Display';
   background-color: var(--white);
 }
