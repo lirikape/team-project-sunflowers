@@ -4,16 +4,16 @@
   | default @import url()
   |============================
 */
-@import url('/css/reset.css');
-@import url('/css/sections/header.css');
-@import url('/css/sections/about_us.css');
-@import url('/css/sections/our_products.css');
-@import url('/css/sections/prices.css');
-@import url('/css/sections/bestsellers.css');
-@import url('/css/sections/reviews.css');
-@import url('/css/sections/newsletter.css');
-@import url('/css/sections/contacts.css');
-@import url('/css/sections/footer.css');
+@import url('./reset.css');
+@import url('./sections/header.css');
+@import url('./sections/about_us.css');
+@import url('./sections/our_products.css');
+@import url('./sections/prices.css');
+@import url('./sections/bestsellers.css');
+@import url('./sections/reviews.css');
+@import url('./sections/newsletter.css');
+@import url('./sections/contacts.css');
+@import url('./sections/footer.css');
 
 :root {
   /* colors */
