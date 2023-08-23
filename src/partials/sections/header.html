@@ -1,21 +1,59 @@
-.header {
-  padding: 20px 0;
-}
+<header class="header-border">
+  <div class="container nav-container">
+    <nav class="main-nav">
+      <a href="">
+        <svg class="header-logo" width="127" height="16">
+          <use href="./src/img/icons.svg#icon-logo"></use>
+      </svg>
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">About us</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Our products</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Prices</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Bestsellers</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"></path>
+      </svg>
+  </button>
+  </div>
+</header>
+<!--  button menu -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <button class="menu-toggle js-close-menu">
+      <svg class="close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black"></use>
+      </svg>
+  </button>
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-}
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-}
+  <ul class="mobiles-menu">
+      <li class="">
+          <a href="./index.html" class="menu-list-link accent "></a>
+      </li>
+      <li class="">
+          <a href="./portfolio.html" class="menu-list-link "></a>
+      </li>
+      <li class="">
+          <a href="" class="menu-list-link "></a>
+      </li>
+     
+  </ul>
+</div>
