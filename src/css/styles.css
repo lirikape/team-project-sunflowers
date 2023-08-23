@@ -6,6 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./sections/header.css');
+@import url('./sections/hero.css');
 @import url('./sections/about_us.css');
 @import url('./sections/our_products.css');
 @import url('./sections/prices.css');
@@ -22,7 +23,6 @@
   --background: #d9d9d9;
   --bc-medium: #b6b6b6;
   --bc-dark: #7a7a7a;
-  ----blue-font: #0a224a;
   --blue-font: #0a224a;
 }
 
@@ -91,6 +91,5 @@ img {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Playfair Display';
   background-color: var(--white);
 }
