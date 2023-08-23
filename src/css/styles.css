@@ -4,16 +4,16 @@
   | default @import url()
   |============================
 */
-@import url('/src/css/reset.css');
-@import url('/src/css/sections/header.css');
-@import url('/src/css/sections/about_us.css');
-@import url('/src/css/sections/our_products.css');
-@import url('/src/css/sections/prices.css');
-@import url('/src/css/sections/bestsellers.css');
-@import url('/src/css/sections/reviews.css');
-@import url('/src/css/sections/newsletter.css');
-@import url('/src/css/sections/contacts.css');
-@import url('/src/css/sections/footer.css');
+@import url('/css/reset.css');
+@import url('/css/sections/header.css');
+@import url('/css/sections/about_us.css');
+@import url('/css/sections/our_products.css');
+@import url('/css/sections/prices.css');
+@import url('/css/sections/bestsellers.css');
+@import url('/css/sections/reviews.css');
+@import url('/css/sections/newsletter.css');
+@import url('/css/sections/contacts.css');
+@import url('/css/sections/footer.css');
 
 :root {
   /* colors */
@@ -79,7 +79,6 @@ img {
     max-width: 768px;
 
     padding: 0 32px;
-
   }
 }
 /* Dasktop styles */
