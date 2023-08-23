@@ -6,13 +6,13 @@
 */
 @import url('./reset.css');
 @import url('./sections/header.css');
+@import url('./sections/hero.css');
 @import url('./sections/about_us.css');
 @import url('./sections/our_products.css');
 @import url('./sections/prices.css');
 @import url('./sections/bestsellers.css');
 @import url('./sections/reviews.css');
 @import url('./sections/newsletter.css');
-@import url('./sections/contacts.css');
 @import url('./sections/footer.css');
 
 :root {
