@@ -1,28 +1,28 @@
-/**
+/*
   |============================
   | include css partials with
   | default @import url()
   |============================
 */
-@import url('./sections/header.css');
-@import url('./sections/about_us.css');
-@import url('./sections/our_products.css');
-@import url('./sections/prices.css');
-@import url('./sections/bestsellers.css');
-@import url('./sections/reviews.css');
-@import url('./sections/newsletter.css');
-@import url('./sections/contacts.css');
-@import url('./sections/footer.css');
+@import url('/src/css/reset.css');
+@import url('/src/css/sections/header.css');
+@import url('/src/css/sections/about_us.css');
+@import url('/src/css/sections/our_products.css');
+@import url('/src/css/sections/prices.css');
+@import url('/src/css/sections/bestsellers.css');
+@import url('/src/css/sections/reviews.css');
+@import url('/src/css/sections/newsletter.css');
+@import url('/src/css/sections/contacts.css');
+@import url('/src/css/sections/footer.css');
 
 :root {
-/* colors */
---white: #FFFFFF;
---light-blue: #F7FAFF;
---background: #D9D9D9;
---bc-medium: #B6B6B6;
---bc-dark: #7A7A7A;
-----blue-font: #0A224A;
-
+  /* colors */
+  --white: #ffffff;
+  --light-blue: #f7faff;
+  --background: #d9d9d9;
+  --bc-medium: #b6b6b6;
+  --bc-dark: #7a7a7a;
+  ----blue-font: #0a224a;
 }
 
 h1,
@@ -69,7 +69,6 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    
   }
 }
 /* Dasktop styles */
