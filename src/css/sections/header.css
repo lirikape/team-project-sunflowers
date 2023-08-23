@@ -8,6 +8,7 @@ justify-content: flex-end;
 align-items: center;
 flex-shrink: 0;
 }
+
 /* Tablet styles */
 @media screen and (min-width: 768px) {
  
