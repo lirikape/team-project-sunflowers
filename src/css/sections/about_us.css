@@ -3,10 +3,50 @@
 |         About Us Section 
 |===================================
 */
-.section-about-us {
+body {
+  margin: 0;
+}
+.about-us-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 100px 0;
 }
-
+@media only screen and (min-width: 768px) {
+  .about-us-section {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-us-section {
+    flex-direction: row;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 24px;
+    margin-bottom: 100px;
+    align-items: center;
+  }
+}
+.about-us-container {
+  padding-left: 16px;
+  padding-right: 16px;
+  background: var(--light-blue, #f7faff);
+}
+@media only screen and (min-width: 768px) {
+  .about-us-container {
+    padding: 36px 64px;
+    max-width: 704px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-us-container {
+    padding: 36px 69px 34px;
+    max-width: 760px;
+  }
+}
 .about-us-title {
   display: flex;
   align-items: center;
@@ -24,7 +64,7 @@
 }
 
 .about-us-subtitle {
-  width: 343px;
+  width: 100%;
   color: var(--blue-font, #0a224a);
   font-size: 28px;
   font-weight: 400;
@@ -32,14 +72,34 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+@media only screen and (min-width: 768px) {
+  .about-us-subtitle {
+    max-width: 576px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-us-subtitle {
+    max-width: 622px;
+  }
+}
 
 .about-us-text {
-  width: 343px;
+  width: 100%;
   color: var(--blue-font, #0a224a);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  .about-us-text {
+    max-width: 576px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-us-text {
+    max-width: 622px;
+  }
 }
 
 .about-us-list {
@@ -49,7 +109,22 @@
   gap: 30px;
   margin-bottom: 61px;
 }
-
+@media only screen and (min-width: 768px) {
+  .about-us-list {
+    width: 576px;
+    flex-direction: row;
+    height: 170px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 33px;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-us-list {
+    gap: 55px;
+  }
+}
 .about-us-list-item {
   width: 170px;
   color: var(--blue-font, #0a224a);
@@ -58,7 +133,10 @@
   font-weight: 400;
   line-height: 24px;
 }
-
+@media only screen and (min-width: 768px) {
+  .about-us-list-item {
+  }
+}
 .about-us-animation {
   display: block;
   width: 170px;
@@ -71,34 +149,31 @@
   line-height: 75px;
   text-transform: uppercase;
 }
-
+@media only screen and (min-width: 768px) {
+  .about-us-animation {
+    display: inline-block;
+    margin-bottom: 8px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-us-animation {
+    margin-bottom: 19px;
+  }
+}
 .about-us-bg-img {
   min-width: 375px;
 }
-
-/*
-  background-image: url(/src/img/about-us/desktop/about-us.png);
-  max-width: 1440px;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  text-align: center;
-}
-@media only screen and (max-width: 767px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) {
   .about-us-bg-img {
-    background-image: url(/src/img/about-us/phone/about-us@2x.png);
-    height: 400px;
+    width: 704px;
   }
 }
-@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 1440px) {
   .about-us-bg-img {
-    background-image: url(/src/img/about-us/tablet/about-us@2x.png);
+    max-width: 536px;
+    height: 100%;
   }
 }
-@media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .about-us-bg-img {
-    background-image: url(/src/img/about-us/desktop/about-us@2x.png);
-  }
-} */
+.about-us-img {
+  width: 100%;
+}
