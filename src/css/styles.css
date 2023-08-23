@@ -6,6 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./sections/header.css');
+@import url('./sections/hero.css');
 @import url('./sections/about_us.css');
 @import url('./sections/our_products.css');
 @import url('./sections/prices.css');
