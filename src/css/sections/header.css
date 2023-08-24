@@ -146,6 +146,10 @@
     width: 127px;
     height: 16px;
   }
+  .logo {
+    padding-top: 37px;
+    padding-bottom: 36px;
+}
 }
 /*------------------------------ Dasktop styles-------------------------------------- */
 @media screen and (min-width: 1440px) {
