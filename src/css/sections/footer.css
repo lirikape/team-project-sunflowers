@@ -20,28 +20,59 @@
   }
 }
 
-.footer-logo {
-  fill: var(--white);
-  display: inline-block;
-
-  height: 16px;
+.footer-upper-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media only screen and (max-width: 767.98px) {
-  .footer-logo {
+  .footer-upper-style {
     margin-bottom: 42px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .footer-logo {
+  .footer-upper-style {
     margin-bottom: 32px;
+    height: 40px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .footer-logo {
+  .footer-upper-style {
     margin-bottom: 39px;
+  }
+}
+
+.footer-logo {
+  fill: var(--white);
+}
+
+.footer-social-links_svg {
+  display: flex;
+}
+
+.footer-social-links_svg svg {
+  fill: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-social-links_svg svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 1439.98px) {
+  .footer-social-links_svg {
+    gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-social-links_svg {
+    gap: 30px;
   }
 }
 
@@ -70,6 +101,10 @@
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
   .footer-site-nav {
     gap: 16px;
+
+    position: absolute;
+    top: 44px;
+    left: 408px;
   }
 }
 
@@ -85,53 +120,13 @@
   }
 }
 
-.footer-social-links_svg {
-  display: flex;
-
-  position: absolute;
-  top: 36px;
-}
-
-.footer-social-links_svg svg {
-  fill: var(--white);
-}
-
-@media only screen and (max-width: 767.98px) {
-  .footer-social-links_svg {
-    right: 16px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .footer-social-links_svg {
-    right: 32px;
-  }
-}
-
-@media only screen and (max-width: 1439.98px) {
-  .footer-social-links_svg {
-    gap: 16px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .footer-social-links_svg {
-    gap: 30px;
-    right: 60px;
-  }
-}
-
-.footer-social-link {
-  width: 40px;
-  height: 40px;
-  display: inline-block;
-}
-
 .footer-address-list {
   color: var(--white);
 
   font-style: normal;
   font-family: Roboto;
+  letter-spacing: 0.01em;
+  line-height: normal;
 }
 
 /* @media only screen and (max-width: 767.98px) {
@@ -145,16 +140,17 @@
   }
 }
 
-.footer-address-position {
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.16px;
-}
+/* .footer-address-position {
+} */
 
 @media only screen and (max-width: 767.98px) {
   .footer-address-position {
     margin-bottom: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-address-position {
   }
 }
 
@@ -180,8 +176,9 @@
   }
 }
 
-/* .footer-address-worktime {
-} */
+.footer-tel {
+  letter-spacing: 0.01em;
+}
 
 @media only screen and (max-width: 767.98px) {
   .footer-tel {
@@ -189,8 +186,10 @@
   }
 }
 
-.footer-telephone {
-  display: inline-block;
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-tel {
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -199,16 +198,27 @@
   }
 }
 
-/* .footer-address-mail {
-} */
+@media only screen and (min-width: 768px) {
+  .footer-tel li:nth-child(odd) {
+    margin-bottom: 24px;
+  }
+}
+
+.footer-telephone {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-address-mail {
+    display: block;
+    margin-bottom: 64px;
+  }
+}
 
 .footer-text-agreement {
   color: var(--white);
   text-align: center;
   font-family: Roboto;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.08em;
 
   opacity: 0.6;
 }
@@ -220,6 +230,22 @@
 @media only screen and (min-width: 375px) and (max-width: 767.98px) {
   .footer-text-agreement {
     width: 343px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-text-agreement {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.08em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-text-agreement {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
   }
 }
 
