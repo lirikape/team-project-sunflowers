@@ -157,7 +157,10 @@
 }
 
 .about-us-img-container {
+
   min-width: 320px;
+
+
 }
 @media only screen and (min-width: 768px) {
   .about-us-bg-img {
