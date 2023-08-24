@@ -21,6 +21,12 @@
   }
 }
 
+.about-us-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .prices-container {
   max-width: 343px;
   padding-right: 16px;
