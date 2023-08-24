@@ -110,9 +110,7 @@
 
 /* ----------------------Tablet styles------------------------------ */
 @media screen and (min-width: 768px) {
-  .header {
-   
-  }
+ 
   .container.nav-container {
     padding-top: 28px;
     padding-bottom: 27px;
@@ -141,17 +139,16 @@
 }
 /*------------------------------ Dasktop styles-------------------------------------- */
 @media screen and (min-width: 1440px) {
-  .header{
-    display: flex;
-    width: 1440px;
-  }
+  
   .container.nav-container {
-    display: inline-flex;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 572px;
   }
-
+  
   .logo-icon {
     width: 128px;
     height: 18px;
@@ -166,8 +163,7 @@
   }
   .main-nav {
     display: flex;
-    padding-top: 26px;
-    padding-bottom: 26px;
+    
   }
 
   .nav-list {
