@@ -1,35 +1,64 @@
+
 <section class="about-us-section" id="about-us">
+
   <div class="about-us-container container">
     <h2 class="about-us-title">About us</h2>
     <p class="about-us-subtitle">
       Our сraftsmanship: сreating unique handmade furniture
     </p>
     <p class="about-us-text">
-      Discover the inspiration behind our modern and minimalist designs,
-      and see how we bring them to life through our skilled craftsmanship.
+
+      Discover the inspiration behind our modern and minimalist designs, and see
+      how we bring them to life through our skilled craftsmanship.
     </p>
     <ul class="about-us-list">
       <li class="about-us-list-item">
-        <span class="about-us-animation">5+</span>Years of experience
-        creating handcrafted furniture
+        <span class="about-us-animation">5+</span>Years of experience creating
+        handcrafted furniture
+
       </li>
       <li class="about-us-list-item">
         <span class="about-us-animation">100%</span> Sustainably sourced
         materials used in all of our furniture
       </li>
       <li class="about-us-list-item">
-        <span class="about-us-animation">500+</span>Unique furniture
-        designs crafted by our skilled artisans
+
+        <span class="about-us-animation">500+</span>Unique furniture designs
+        crafted by our skilled artisans
       </li>
     </ul>
   </div>
-  <div class="about-us-img-container">
-    <img srcset="
-            /src/img/about-us/desktop/about-us.png    1x,
-            /src/img/about-us/desktop/about-us@2x.png 2x
-          "
-          src="/src/img/about-us/desktop/about-us.png"
-          alt="Stylish room with japanese tree and white sofa in it"
-      class="about-us-img" width="536" height=""/>
+  <div class="about-us-img-container container">
+    <picture>
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          /src/img/about-us/phone/about-us.png    1x,
+          /src/img/about-us/phone/about-us@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /src/img/about-us/tablet/about-us.png    1x,
+          /src/img/about-us/tablet/about-us@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          /src/img/about-us/desktop/about-us.png    1x,
+          /src/img/about-us/desktop/about-us@2x.png 2x
+        "
+      />
+      <img
+        class="about-us-img"
+        src="/src/img/about-us/desktop/about-us.png"
+        alt="Stylish room with japanese tree and white sofa in it"
+        width="536"
+        height="540"
+      />
+    </picture>
   </div>
 </section>
+

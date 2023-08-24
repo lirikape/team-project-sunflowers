@@ -1,3 +1,9 @@
+
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+
 /* Base styles */
 @import url('./common.css');
 @import url('./reset.css');
@@ -15,6 +21,7 @@
 @import url('./sections/newsletter.css');
 @import url('./sections/contacts.css');
 @import url('./sections/footer.css');
+
 
 
 
