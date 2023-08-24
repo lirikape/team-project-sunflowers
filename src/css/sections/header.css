@@ -1,5 +1,5 @@
 /* -----------------------Header ----------------------------------------*/
-.header-border {
+.header {
   background: var(--light-blue);
   width: 375px;
   margin: 0 auto;
@@ -111,7 +111,7 @@
 
 /* ----------------------Tablet styles------------------------------ */
 @media screen and (min-width: 768px) {
-  .header-border {
+  .header {
     width: 768px;
   }
   .container.nav-container {
@@ -135,7 +135,7 @@
 }
 /*------------------------------ Dasktop styles-------------------------------------- */
 @media screen and (min-width: 1440px) {
-  .header-border {
+  .header{
     display: flex;
     width: 1440px;
   }
