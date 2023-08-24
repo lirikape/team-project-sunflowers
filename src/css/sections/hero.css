@@ -67,6 +67,7 @@
 .section-hero-title {
   color: var(--blue-font);
 
+  font-family: Playfair Display, sans-serif;
   font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
@@ -74,7 +75,7 @@
 .section-hero-text {
   color: var(--blue-font);
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 
   line-height: 1.5;
 }
@@ -88,7 +89,7 @@
   min-width: 224px;
   max-width: 100%;
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   text-decoration: none;
   padding: 12px;
   text-align: center;

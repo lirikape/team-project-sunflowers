@@ -78,7 +78,7 @@
 
   color: var(--white);
 
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   line-height: 1.5;
 }
 
@@ -124,7 +124,7 @@
   color: var(--white);
 
   font-style: normal;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.01em;
   line-height: normal;
 }
@@ -214,7 +214,7 @@
 .footer-text-agreement {
   color: var(--white);
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 
   opacity: 0.6;
 }
