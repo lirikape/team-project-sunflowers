@@ -14,8 +14,8 @@
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  <script type="module" crossorigin src="/team-project-sunflowers/assets/index-ce0f8cdb.js"></script>
-  <link rel="stylesheet" href="/team-project-sunflowers/assets/index-19e8bbc0.css">
+  <script type="module" crossorigin src="/team-project-sunflowers/assets/index-6ee1b729.js"></script>
+  <link rel="stylesheet" href="/team-project-sunflowers/assets/index-109abb42.css">
 </head>
 
 <body>
@@ -75,43 +75,73 @@
   </div>
 </section>
 
-    <section class="about-us-section" id="about-us">
+    
+<section class="about-us-section" id="about-us">
+
   <div class="about-us-container container">
     <h2 class="about-us-title">About us</h2>
     <p class="about-us-subtitle">
       Our сraftsmanship: сreating unique handmade furniture
     </p>
     <p class="about-us-text">
-      Discover the inspiration behind our modern and minimalist designs,
-      and see how we bring them to life through our skilled craftsmanship.
+
+      Discover the inspiration behind our modern and minimalist designs, and see
+      how we bring them to life through our skilled craftsmanship.
     </p>
     <ul class="about-us-list">
       <li class="about-us-list-item">
-        <span class="about-us-animation">5+</span>Years of experience
-        creating handcrafted furniture
+        <span class="about-us-animation">5+</span>Years of experience creating
+        handcrafted furniture
+
       </li>
       <li class="about-us-list-item">
         <span class="about-us-animation">100%</span> Sustainably sourced
         materials used in all of our furniture
       </li>
       <li class="about-us-list-item">
-        <span class="about-us-animation">500+</span>Unique furniture
-        designs crafted by our skilled artisans
+
+        <span class="about-us-animation">500+</span>Unique furniture designs
+        crafted by our skilled artisans
       </li>
     </ul>
   </div>
-  <div class="about-us-img-container">
-    <img srcset="
-            /src/img/about-us/desktop/about-us.png    1x,
-            /src/img/about-us/desktop/about-us@2x.png 2x
-          "
-          src="/src/img/about-us/desktop/about-us.png"
-          alt="Stylish room with japanese tree and white sofa in it"
-      class="about-us-img" width="536" height=""/>
+  <div class="about-us-img-container container">
+    <picture>
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          /src/img/about-us/phone/about-us.png    1x,
+          /src/img/about-us/phone/about-us@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /src/img/about-us/tablet/about-us.png    1x,
+          /src/img/about-us/tablet/about-us@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          /src/img/about-us/desktop/about-us.png    1x,
+          /src/img/about-us/desktop/about-us@2x.png 2x
+        "
+      />
+      <img
+        class="about-us-img"
+        src="/src/img/about-us/desktop/about-us.png"
+        alt="Stylish room with japanese tree and white sofa in it"
+        width="536"
+        height="540"
+      />
+    </picture>
   </div>
 </section>
-    <section class="section-our-products">
-  <div class="container" id="our-products">
+
+
+    <section class="section-our-products" id="our-products">
+  <div class="container" >
     <h2 class="section-our-products-title">Our products</h2>
     <ul class="section-our-products-list list">
       <li class="section-our-products-list-item">
@@ -199,48 +229,36 @@
   </div>
 </section>
 
-    <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- CSS Styles -->
-    <link rel="stylesheet" href="/css/sections/about_us.css" type="text/css" />
-    <link rel="stylesheet" href="/src/css/styles.css" type="text/css" />
-    <link rel="stylesheet" href="/src/css/reset.css" type="text/css" />
-  </head>
-  <body>
-    <section class="prices-section">
-      <div class="prices-container">
-        <h2 class="prices-hidden-title visually-hidden">
-          Chairs Tables Dressers Sofas Price.
-        </h2>
-        <ul class="prices-list">
-          <li class="prices-list-item">
-            <p class="prices-list-text">Chairs</p>
-            <span class="prices-list-span">from 200$</span>
-          </li>
-          <li class="prices-list-item">
-            <p class="prices-list-text">Tables</p>
-            <span class="prices-list-span">from 250$</span>
-          </li>
-          <li class="prices-list-item">
-            <p class="prices-list-text">Dressers</p>
-            <span class="prices-list-span">from 300$</span>
-          </li>
-          <li class="prices-list-item">
-            <p class="prices-list-text">Sofas</p>
-            <span class="prices-list-span">from 500$</span>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </body>
-</html>
+    
+<section class="prices-section">
+  <div class="prices-container container">
+    <h2 class="prices-hidden-title visually-hidden">
+      Chairs Tables Dressers Sofas Price.
+    </h2>
+    <ul class="prices-list">
+      <li class="prices-list-item">
+        <a class="prices-list-text" href="https://www.example.com">Chairs</a>
+        <span class="prices-list-span">from 200$</span>
+      </li>
+      <li class="prices-list-item">
+        <a class="prices-list-text" href="https://www.example.com">Tables</a>
+        <span class="prices-list-span">from 250$</span>
+      </li>
+      <li class="prices-list-item">
+        <a class="prices-list-text" href="https://www.example.com">Dressers</a>
+        <span class="prices-list-span">from 300$</span>
+      </li>
+      <li class="prices-list-item">
+        <a class="prices-list-text" href="https://www.example.com">Sofas</a>
+        <span class="prices-list-span">from 500$</span>
+      </li>
+    </ul>
+  </div>
+</section>
 
-    <section class="bestsellers-section">
-  <div class="container" id="bestsellers">
+
+    <section class="bestsellers-section" id="bestsellers">
+  <div class="container" >
     <h2 class="bestsellers-title">Bestsellers</h2>
     <div class="bestsellers-wrapper">
       <div class="bestsellers-main-picture">
@@ -367,7 +385,9 @@
 </section>
 
     <section class="reviews" id="reviews">
+
   <div class="reviews-container container">
+
     <h2 class="reviews-container-title">Clients reviews</h2>
 
     <ul class="reviews-list">
