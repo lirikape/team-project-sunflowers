@@ -3,9 +3,7 @@
 |         About Us Section 
 |===================================
 */
-body {
-  margin: 0;
-}
+
 .about-us-section {
   display: flex;
   flex-direction: column;
@@ -159,7 +157,10 @@ body {
 }
 
 .about-us-img-container {
-  min-width: 375px;
+
+  min-width: 320px;
+
+
 }
 @media only screen and (min-width: 768px) {
   .about-us-bg-img {

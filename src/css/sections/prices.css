@@ -4,21 +4,6 @@
 |===================================
 */
 
-body {
-  margin: 0;
-  padding: 0;
-}
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-  padding: 0;
-}
-a,
-ul {
-  text-decoration: none;
-}
 .prices-section {
   padding-top: 64px;
   padding-bottom: 64px;
@@ -64,25 +49,16 @@ ul {
   .prices-container {
     padding-left: 172px;
     padding-right: 172px;
-    max-width: 1096px;
+    max-width: 1216px;
   }
 }
 
-.prices-hidden-title {
-}
-/* .prices-hidden-title {
-} */
-/* .prices-hidden-title {
-} */
 .prices-list {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
-/* .prices-list {
-} */
-/* .prices-list {
-} */
+
 .prices-list-item {
   display: flex;
   align-items: center;
@@ -121,10 +97,7 @@ ul {
 .prices-list-item:last-child:after {
   margin-bottom: 0;
 }
-/* .prices-list-item {
-} */
-/* .prices-list-item {
-} */
+
 .prices-list-text {
   transform: translateX(0%);
   position: relative;
