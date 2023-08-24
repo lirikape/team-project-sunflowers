@@ -1,8 +1,7 @@
 /* -----------------------Header ----------------------------------------*/
-.header-border {
+.header {
   background: var(--light-blue);
-  width: 375px;
-  margin: 0 auto;
+  
 }
 .container.nav-container {
   display: flex;
@@ -111,8 +110,8 @@
 
 /* ----------------------Tablet styles------------------------------ */
 @media screen and (min-width: 768px) {
-  .header-border {
-    width: 768px;
+  .header {
+   
   }
   .container.nav-container {
     padding-top: 28px;
@@ -124,6 +123,7 @@
   .header-menu {
     padding-top: 37.5px;
     padding-bottom: 37.5px;
+    padding-left: 32px;
   }
   .mobile-menu {
     margin-top: 150px;
@@ -132,10 +132,16 @@
   .mob-link {
     font-size: 18px;
   }
+  .menu-container .menu-toggle {
+    position: absolute;
+    top: 24px;
+    right: 32px;
+    color: black;
+}
 }
 /*------------------------------ Dasktop styles-------------------------------------- */
 @media screen and (min-width: 1440px) {
-  .header-border {
+  .header{
     display: flex;
     width: 1440px;
   }

@@ -1,0 +1,15 @@
+/* Reset styles */
+:root {
+    /* colors */
+    --white: #ffffff;
+    --light-blue: #f7faff;
+    --background: #d9d9d9;
+    --bc-medium: #b6b6b6;
+    --bc-dark: #7a7a7a;
+    --blue-font: #0a224a;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+  }

@@ -1,96 +1,17 @@
-/*
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+/* Base styles */
+@import url('./common.css');
 @import url('./reset.css');
+@import url('./visually-hiiden.css');
+@import url('./container.css');
+
+/* Sections styles */
 @import url('./sections/header.css');
 @import url('./sections/hero.css');
-@import url('./sections/about_us.css');
-@import url('./sections/our_products.css');
+@import url('./sections/about-us.css');
+@import url('./sections/our-products.css');
 @import url('./sections/prices.css');
 @import url('./sections/bestsellers.css');
 @import url('./sections/reviews.css');
 @import url('./sections/newsletter.css');
 @import url('./sections/contacts.css');
 @import url('./sections/footer.css');
-
-:root {
-  /* colors */
-  --white: #fff;
-  --light-blue: #f7faff;
-  --background: #d9d9d9;
-  --bc-medium: #b6b6b6;
-  --bc-dark: #7a7a7a;
-  --blue-font: #0a224a;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/* container */
-.container {
-  min-width: 320px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-/* Only mobile styles */
-
-@media only screen and (max-width: 767.98px) {
-  .container {
-    max-width: 375px;
-    padding: 0 16px;
-  }
-}
-
-/* Tablet styles */
-@media screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .container {
-    max-width: 768px;
-
-    padding: 0 32px;
-  }
-}
-/* Dasktop styles */
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding: 0 60px;
-  }
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--white);
-}
