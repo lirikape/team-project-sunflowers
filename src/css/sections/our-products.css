@@ -1,6 +1,5 @@
 .section-our-products {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-bottom: 64px;
 }
 .section-our-products-title {
   color: var(--blue-font, #0a224a);
@@ -22,7 +21,7 @@
   margin-top: 16px;
 }
 /* Only mobile styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .section-our-products-list-item:nth-child(n + 2) {
     display: none;
   }
@@ -43,6 +42,9 @@
   .section-our-products-list-item:nth-child(n + 3) {
     display: none;
   }
+  .section-our-products {
+    margin-bottom: 100px;
+  }
 }
 /* Dasktop styles */
 @media screen and (min-width: 1440px) {
@@ -54,5 +56,8 @@
   }
   .section-our-products-list-item {
     flex-basis: calc((100% - 72px) / 4);
+  }
+  .section-our-products {
+    margin-bottom: 95px;
   }
 }
