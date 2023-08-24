@@ -1,0 +1,261 @@
+.footer .footer-container {
+  background-color: var(--bluefont, #0a224a);
+  position: relative;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer .footer-container {
+    padding-bottom: 16px;
+    padding-top: 42px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer .footer-container {
+    padding-bottom: 36px;
+    padding-top: 48px;
+  }
+}
+
+.footer-upper-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-upper-style {
+    margin-bottom: 42px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-upper-style {
+    margin-bottom: 32px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-upper-style {
+    margin-bottom: 39px;
+  }
+}
+
+.footer-logo {
+  fill: var(--white);
+}
+
+.footer-social-links_svg {
+  display: flex;
+}
+
+.footer-social-links_svg svg {
+  fill: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-social-links_svg svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 1439.98px) {
+  .footer-social-links_svg {
+    gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-social-links_svg {
+    gap: 30px;
+  }
+}
+
+.footer-site-nav {
+  display: flex;
+
+  color: var(--white);
+
+  font-family: Roboto;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-site-nav {
+    gap: 8px;
+
+    margin-bottom: 36px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-site-nav {
+    font-size: 18px;
+
+    position: absolute;
+    top: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-site-nav {
+    gap: 16px;
+
+    left: 408px;
+  }
+}
+
+@media only screen and (max-width: 1439.98px) {
+  .footer-site-nav {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-site-nav {
+    gap: 39px;
+    left: 404px;
+  }
+}
+
+.footer-address-list {
+  color: var(--white);
+
+  font-style: normal;
+  font-family: Roboto;
+  letter-spacing: 0.01em;
+  line-height: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-address-list {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer-address-list {
+    display: flex;
+    gap: 87px;
+
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-address-position {
+    margin-bottom: 35px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-address-position {
+    margin-bottom: 64px;
+  }
+}
+
+.footer-address-maplink {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-address-maplink {
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-address-maplink {
+    margin-bottom: 24px;
+  }
+}
+
+.footer-tel {
+  letter-spacing: 0.01em;
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-tel {
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-tel {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-tel li:nth-child(odd) {
+    margin-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-tel li:nth-child(odd) {
+    margin-bottom: 24px;
+  }
+}
+
+.footer-telephone {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-address-mail {
+    display: block;
+    margin-bottom: 64px;
+  }
+}
+
+.footer-text-agreement {
+  color: var(--white);
+  text-align: center;
+  font-family: Roboto;
+
+  opacity: 0.6;
+}
+
+.terms-and-policy {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767.98px) {
+  .footer-text-agreement {
+    width: 343px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .footer-text-agreement {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.08em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-text-agreement {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.07em;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
+  .mobile-hideout {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
