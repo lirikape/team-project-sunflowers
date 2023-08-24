@@ -133,10 +133,7 @@ body {
   font-weight: 400;
   line-height: 24px;
 }
-@media only screen and (min-width: 768px) {
-  .about-us-list-item {
-  }
-}
+
 .about-us-animation {
   display: block;
   width: 170px;
@@ -160,7 +157,8 @@ body {
     margin-bottom: 19px;
   }
 }
-.about-us-bg-img {
+
+.about-us-img-container {
   min-width: 375px;
 }
 @media only screen and (min-width: 768px) {
@@ -176,4 +174,14 @@ body {
 }
 .about-us-img {
   width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .about-us-img {
+    width: 768px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-us-img {
+    width: 100%;
+  }
 }
