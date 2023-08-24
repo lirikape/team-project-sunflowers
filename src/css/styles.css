@@ -6,8 +6,8 @@
 */
 @import url('/src/css/reset.css');
 @import url('/src/css/sections/header.css');
-@import url('/src/css/sections/about_us.css');
-@import url('/src/css/sections/our_products.css');
+@import url('/src/css/sections/about-us.css');
+@import url('/src/css/sections/our-products.css');
 @import url('/src/css/sections/prices.css');
 @import url('/src/css/sections/bestsellers.css');
 @import url('/src/css/sections/reviews.css');
