@@ -18,6 +18,7 @@
 
 .bestsellers-main-picture {
   width: 100%;
+
   margin-bottom: 30px;
 }
 
@@ -30,16 +31,16 @@
 @media only screen and (min-width: 768px) {
   .bestsellers-main-picture {
     width: 704px;
+
     margin-bottom: 32px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .bestsellers-main-picture {
-    margin-bottom: 0;
+    width: 536px;
 
-    max-width: 536px;
-    display: inline-block;
+    margin-bottom: 0;
   }
 }
 
@@ -87,7 +88,7 @@
 
 @media only screen and (min-width: 768px) {
   .bestsellers-subtitle {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -127,8 +128,7 @@
 }
 
 .bestsellers-item {
-  width: 343px;
-  max-width: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -139,14 +139,12 @@
 
 @media only screen and (min-width: 768px) {
   .bestsellers-item {
-    width: 336px;
-    max-width: calc((100% - 32px) / 2);
+    width: calc((100% - 32px) / 2);
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .bestsellers-item {
-    width: 258px;
-    max-width: calc((100% - 20px) / 2);
+    width: calc((100% - 20px) / 2);
   }
 }
