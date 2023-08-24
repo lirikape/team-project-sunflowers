@@ -1,6 +1,6 @@
-/* Header */
+/* -----------------------Header ----------------------------------------*/
 .header-border {
-  background: #f7faff;
+  background: var(--light-blue);
   width: 375px;
   margin: 0 auto;
 }
@@ -9,63 +9,26 @@
   align-items: center;
   justify-content: space-between;
 }
-.logo.mob-space {
-  padding: 35px 0;
-}
+
 .logo-icon {
   fill: var(--blue-font);
-  
- 
 }
-
-.header-logo {
-}
-
 .nav-list {
   display: none;
 }
-.nav-item {
+
+/*----------------------   mobile menu   -----------------------*/
+.container.nav-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
-.nav-link {
-}
-/* next part  mobile menu*/
 .header-menu {
-  background: #f7faff;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  background: var(--light-blue);
+  padding-top: 34px;
+  padding-bottom: 34px;
   padding-left: 16px;
   padding-right: 16px;
 }
-@media (max-width: 767px) {
-  
-  .menu {
-    display: none;
-  }
-}
-.mob-link {
-  display: flex;
-  color: var(--blue-font, #0a224a);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-}
-.menu-item {
-  display: flex;
-  justify-content: center;
-}
-.menu .mob-link {
-  padding: 10px;
-  color: inherit;
-  text-decoration: none;
-}
-
-.menu .mob-link:hover,
-.menu .mob-link:focus {
-  text-decoration: underline;
-}
-
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
@@ -80,22 +43,37 @@
   border-radius: 50%;
   outline: none;
 }
-
 .menu-toggle:hover,
 .menu-toggle:focus {
   background-color: rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
+.menu-item {
+  display: flex;
+  justify-content: center;
+}
+.mob-link {
+  display: flex;
+  color: var(--blue-font);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
 }
 
 .menu-container {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 0;
   background-color: var(--white);
   z-index: 999;
-
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -110,18 +88,20 @@
   right: 16px;
   color: black;
 }
-
+.burger-icon {
+  stroke: var(--blue-font);
+}
 .mobile-menu {
   display: flex;
   margin-top: 114px;
   padding: 0;
   list-style: none;
   flex-direction: column;
+  gap: 17px;
 }
 
 .mobile-menu .mob-link {
   display: block;
-  padding: 10px;
 
   text-decoration: none;
 }
@@ -129,26 +109,31 @@
   fill: #fff;
 }
 
-/* Tablet styles */
+/* ----------------------Tablet styles------------------------------ */
 @media screen and (min-width: 768px) {
   .header-border {
     width: 768px;
   }
-  .logo.mob-space {
-    padding: 38px 0;
+  .container.nav-container {
+    padding-top: 28px;
+    padding-bottom: 27px;
   }
   .nav-list {
     display: none;
   }
   .header-menu {
-    background: #f7faff;
-    padding-top: 38px;
-    padding-bottom: 38px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+  }
+  .mobile-menu {
+    margin-top: 150px;
+    gap: 30px;
+  }
+  .mob-link {
+    font-size: 18px;
   }
 }
-/* Dasktop styles */
+/*------------------------------ Dasktop styles-------------------------------------- */
 @media screen and (min-width: 1440px) {
   .header-border {
     display: flex;
@@ -160,44 +145,46 @@
     align-items: center;
     gap: 572px;
   }
-  .logo.mob-space {
-    padding: 38px 0;
-  }
+
   .logo-icon {
     width: 128px;
     height: 18px;
+  }
+  .logo-icon:hover,
+  .logo-icon:focus {
+    stroke: #2a4ff1;
+    fill: #2a4ff1;
+  }
+  .logo.mob-space {
+    padding: 0;
   }
   .main-nav {
     display: flex;
     padding-top: 26px;
     padding-bottom: 26px;
   }
-  .header-menu {
-    background: #f7faff;
-    padding-top: 38px;
-    padding-bottom: 38px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+
   .nav-list {
     display: flex;
     padding: 8px;
     align-items: center;
     gap: 30px;
   }
+
+  /* <a> in section main-nav */
   .nav-link {
     color: var(--blue-font, #0a224a);
     font-family: Roboto;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 27px; /* 150% */
   }
   .nav-link:hover,
   .nav-link:focus {
-    color: aqua;
+    color: #2a4ff1;
   }
 
+  /*------------- Hiden features -------------------*/
   .menu-toggle.js-open-menu {
     display: none;
   }
