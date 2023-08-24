@@ -206,9 +206,13 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
   .footer-address-mail {
-    display: block;
+    display: inline-block;
     margin-bottom: 64px;
   }
+}
+
+.footer-address-mail {
+  block-size: 22px;
 }
 
 .footer-text-agreement {
