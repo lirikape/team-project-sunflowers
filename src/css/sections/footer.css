@@ -35,12 +35,15 @@
   position: relative;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer .footer-container {
     padding-bottom: 16px;
     padding-top: 42px;
   }
 }
+/* tablet and desktop styles */
 
 @media only screen and (min-width: 768px) {
   .footer .footer-container {
@@ -57,11 +60,15 @@
   align-items: center;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer-upper-style {
     margin-bottom: 42px;
   }
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
   .footer-upper-style {
@@ -69,6 +76,8 @@
     height: 40px;
   }
 }
+
+/* desktop styles */
 
 @media only screen and (min-width: 1440px) {
   .footer-upper-style {
@@ -90,6 +99,8 @@
   fill: var(--white);
 }
 
+/* tablet styles */
+
 @media only screen and (min-width: 768px) {
   .footer-social-links_svg svg {
     width: 40px;
@@ -102,6 +113,8 @@
     gap: 16px;
   }
 }
+
+/* desktop styles */
 
 @media only screen and (min-width: 1440px) {
   .footer-social-links_svg {
@@ -120,6 +133,8 @@
   line-height: 1.5;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer-site-nav {
     gap: 8px;
@@ -127,6 +142,8 @@
     margin-bottom: 36px;
   }
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) {
   .footer-site-nav {
@@ -151,6 +168,8 @@
   }
 }
 
+/* desktop styles */
+
 @media only screen and (min-width: 1440px) {
   .footer-site-nav {
     gap: 39px;
@@ -169,18 +188,11 @@
   line-height: normal;
 }
 
+/* tablet styles */
+
 @media only screen and (min-width: 768px) {
   .footer-address-list {
     font-size: 19px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .footer-address-list {
-    display: flex;
-    gap: 87px;
-
-    margin-bottom: 35px;
   }
 }
 
@@ -196,15 +208,32 @@
   }
 }
 
+/* desktop */
+
+@media only screen and (min-width: 1440px) {
+  .footer-address-list {
+    display: flex;
+    gap: 87px;
+
+    margin-bottom: 35px;
+  }
+}
+
+/* footer maplink */
+
 .footer-address-maplink {
   display: inline-block;
 }
+
+/* mobile styles */
 
 @media only screen and (max-width: 767.98px) {
   .footer-address-maplink {
     margin-bottom: 8px;
   }
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) {
   .footer-address-maplink {
@@ -216,15 +245,11 @@
   letter-spacing: 0.01em;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer-tel {
     margin-bottom: 64px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .footer-tel {
-    margin-bottom: 24px;
   }
 }
 
@@ -234,15 +259,27 @@
   }
 }
 
+/* tablet styles */
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-tel {
+    margin-bottom: 24px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .footer-tel li:nth-child(odd) {
     margin-bottom: 24px;
   }
 }
 
+/* footer-tel */
+
 .footer-telephone {
   display: inline-block;
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
   .footer-address-mail {
@@ -250,6 +287,8 @@
     margin-bottom: 64px;
   }
 }
+
+/* footer-mail */
 
 .footer-address-mail {
   block-size: 22px;
@@ -291,7 +330,7 @@
   }
 }
 
-/* hideout style */
+/* hideout style for mail only on phones */
 
 @media only screen and (max-width: 767.98px) {
   .mobile-hideout {
