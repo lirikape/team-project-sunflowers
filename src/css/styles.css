@@ -1,84 +1,17 @@
-/*
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('/src/css/reset.css');
-@import url('/src/css/sections/header.css');
-@import url('/src/css/sections/about-us.css');
-@import url('/src/css/sections/our-products.css');
-@import url('/src/css/sections/prices.css');
-@import url('/src/css/sections/bestsellers.css');
-@import url('/src/css/sections/reviews.css');
-@import url('/src/css/sections/newsletter.css');
-@import url('/src/css/sections/contacts.css');
-@import url('/src/css/sections/footer.css');
+/* Base styles */
+@import url('./common.css');
+@import url('./reset.css');
+@import url('./visually-hiiden.css');
+@import url('./container.css');
 
-:root {
-  /* colors */
-  --white: #ffffff;
-  --light-blue: #f7faff;
-  --background: #d9d9d9;
-  --bc-medium: #b6b6b6;
-  --bc-dark: #7a7a7a;
-  ----blue-font: #0a224a;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-/* container */
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  padding: 0 16px;
-  margin: 0 auto;
-}
-/* Tablet styles */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-/* Dasktop styles */
-@media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-body {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Playfair Display';
-  background-color: var(--white);
-}
+/* Sections styles */
+@import url('./sections/header.css');
+@import url('./sections/hero.css');
+@import url('./sections/about-us.css');
+@import url('./sections/our-products.css');
+@import url('./sections/prices.css');
+@import url('./sections/bestsellers.css');
+@import url('./sections/reviews.css');
+@import url('./sections/newsletter.css');
+@import url('./sections/contacts.css');
+@import url('./sections/footer.css');
