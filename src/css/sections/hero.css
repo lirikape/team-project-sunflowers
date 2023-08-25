@@ -1,9 +1,19 @@
 /* section-hero */
+
+@media only screen and (min-width: 768px) {
+  .section-hero {
+    margin-bottom: 100px;
+  }
+}
+
+/* hero-bg styles */
 .section-hero .section-hero-container {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* mobile-bg */
 
 @media only screen and (max-width: 767.98px) {
   .section-hero .section-hero-container {
@@ -21,11 +31,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .section-hero {
-    margin-bottom: 100px;
-  }
-}
+/* tablet-bg */
 
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
   .section-hero .section-hero-container {
@@ -50,6 +56,8 @@
   }
 }
 
+/* desktop-bg */
+
 @media only screen and (min-width: 1440px) {
   .section-hero .section-hero-container {
     display: flex;
@@ -65,6 +73,16 @@
       right 60px top 0px;
   }
 
+  @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .section-hero .section-hero-container {
+      background-image: url(../img/hero/hero-bg-second_desktop@2x.jpg),
+        url(../../img/hero/hero-bg-central_desk@2x.jpg),
+        url(../../img/hero/hero-bg-third_desk@2x.jpg);
+    }
+  }
+
+  /* hero main text styles and positioning */
+
   .section-hero-flex {
     align-self: flex-end;
   }
@@ -78,13 +96,16 @@
   line-height: 1.5;
   text-transform: uppercase;
 }
+
 .section-hero-text {
   color: var(--blue-font);
 
   font-family: Roboto, sans-serif;
-
   line-height: 1.5;
 }
+
+/* hero anchor 'button' styles */
+
 .section-hero-anchor {
   background-color: var(--blue-font, #0a224a);
   color: var(--white, #fff);
@@ -101,10 +122,14 @@
   text-align: center;
 }
 
+/* hover styles */
+
 .section-hero-anchor:hover,
 .section-hero-anchor:focus {
   background-color: #061835;
 }
+
+/* mobile styles */
 
 @media only screen and (max-width: 767.98px) {
   .section-hero-title {
@@ -129,6 +154,8 @@
     line-height: 1.5;
   }
 }
+
+/* tablet and desktop styles */
 
 @media only screen and (min-width: 768px) {
   .section-hero-title {
