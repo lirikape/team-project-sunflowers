@@ -1,3 +1,32 @@
+/* hover/focus styles */
+
+/* .footer-logo:hover svg,
+.footer-logo:focus svg {
+  fill: #293efa;
+}
+
+.footer-social-link:focus svg,
+.footer-social-link:hover svg {
+  fill: #293efa;
+}
+
+.footer-site-nav a:hover,
+.footer-site-nav a:focus {
+  color: #293efa;
+}
+
+.footer-address-maplink:hover,
+.footer-address-maplink:focus {
+  color: #293efa;
+}
+
+.footer-telephone:hover,
+.footer-telephone:focus {
+  color: #293efa;
+} */
+
+/* footer container styles */
+
 .footer {
   background-color: var(--bluefont, #0a224a);
 }
@@ -19,6 +48,8 @@
     padding-top: 48px;
   }
 }
+
+/* upper-footer positioning */
 
 .footer-upper-style {
   display: flex;
@@ -44,6 +75,8 @@
     margin-bottom: 39px;
   }
 }
+
+/* upper-footer styles*/
 
 .footer-logo {
   fill: var(--white);
@@ -75,6 +108,8 @@
     gap: 30px;
   }
 }
+
+/* anchor-list style */
 
 .footer-site-nav {
   display: flex;
@@ -122,6 +157,8 @@
     left: 404px;
   }
 }
+
+/* address styles */
 
 .footer-address-list {
   color: var(--white);
@@ -218,6 +255,8 @@
   block-size: 22px;
 }
 
+/* agreements styles */
+
 .footer-text-agreement {
   color: var(--white);
   text-align: center;
@@ -251,6 +290,8 @@
     letter-spacing: 0.07em;
   }
 }
+
+/* hideout style */
 
 @media only screen and (max-width: 767.98px) {
   .mobile-hideout {
