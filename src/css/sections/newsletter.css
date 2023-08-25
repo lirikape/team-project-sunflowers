@@ -1,0 +1,230 @@
+.newsletter-section {
+  padding-bottom: 64px;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsletter-section {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .newsletter-section {
+    padding-bottom: 86px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .newsletter-left-side {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .newsletter-right-side {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .section-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+}
+
+.newsletter-header {
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--blue-font);
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsletter-header {
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: start;
+    padding-bottom: 30px;
+  }
+}
+
+.newsletter-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--blue-font);
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsletter-text {
+    font-size: 18px;
+    max-width: 536px;
+    padding-bottom: 20px;
+  }
+}
+
+.newsletter-input-field {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsletter-input-field {
+    width: 536px;
+  }
+}
+
+.newsletter-input {
+  width: 343px;
+  height: 50px;
+  padding: 11px 46px 11px 20px;
+  border: 1px solid var(--bc-medium);
+  background-color: transparent;
+  color: var(--blue-font);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  outline: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsletter-input {
+    width: 536px;
+  }
+}
+
+.newsletter-input-icon {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+  fill: #e74a3b;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.newsletter-input::placeholder {
+  color: var(--background);
+}
+
+.newsletter-input:focus {
+  border-color: var(--blue-font);
+}
+
+.newsletter-input:not(:placeholder-shown):required:invalid {
+  border-color: #e74a3b;
+  color: #e74a3b;
+}
+
+.newsletter-input:not(:placeholder-shown):required:invalid
+  ~ .newsletter-input-icon {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 374.98px) {
+  .newsletter-input {
+    max-width: 100%;
+  }
+}
+
+.newsletter-agreement {
+  display: flex;
+  color: var(--bc-dark);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsletter-agreement {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+}
+
+/* підібрала сама, не співпадає по макету */
+
+@media only screen and (min-width: 1440px) {
+  .newsletter-agreement {
+    margin-bottom: 42px;
+  }
+}
+
+.newsletter-agreement-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border: 1px solid var(--bc-medium);
+  background-color: transparent;
+  margin-right: 8px;
+}
+
+.check-icon {
+  opacity: 0;
+  stroke: var(--white);
+  fill: none;
+}
+
+input[type='checkbox']:checked
+  ~ .newsletter-agreement
+  .newsletter-agreement-checkbox {
+  background-color: var(--blue-font);
+  border-color: var(--blue-font);
+}
+
+input[type='checkbox']:checked
+  ~ .newsletter-agreement
+  .newsletter-agreement-checkbox
+  .check-icon {
+  opacity: 1;
+}
+
+.newsletter-btn {
+  padding: 13px 94px;
+  min-width: 224px;
+  height: 50px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: var(--blue-font);
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .newsletter-btn {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .newsletter-btn {
+    margin-bottom: 0;
+  }
+}
+
+.newsletter-btn:hover,
+.newsletter-btn:focus {
+  background-color: #061835;
+}
+
+@media only screen and (min-width: 1440px) {
+  .newsletter-img {
+    width: 460px;
+  }
+}

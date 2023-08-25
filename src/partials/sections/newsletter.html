@@ -1,0 +1,107 @@
+<section class="newsletter-section" id="contacts">
+  <div class="container section-wrapper">
+    <div class="newsletter-left-side">
+      <h6 class="newsletter-header">Newsletter</h6>
+      <p class="newsletter-text">
+        Every week we will send you new designs and information about sales.
+      </p>
+      <form name="subscribe_form">
+        <label for="user_name">
+          <div class="newsletter-input-field">
+            <input
+              class="newsletter-input"
+              type="text"
+              name="user_name"
+              id="user_name"
+              required
+              minlength="2"
+              maxlength="16"
+              placeholder="Name"
+            />
+            <svg
+              class="newsletter-input-icon"
+              width="24"
+              height="24"
+              aria-label="Error"
+            >
+              <use href="./img/icons.svg#icon-error"></use>
+            </svg>
+          </div>
+        </label>
+        <label for="user_email">
+          <div class="newsletter-input-field">
+            <input
+              class="newsletter-input"
+              type="email"
+              name="user_email"
+              id="user_email"
+              required
+              placeholder="E-mail"
+            />
+            <svg
+              class="newsletter-input-icon"
+              width="24"
+              height="24"
+              aria-label="Error"
+            >
+              <use href="./img/icons.svg#icon-error"></use>
+            </svg>
+          </div>
+        </label>
+        <input
+          class="visually-hidden"
+          type="checkbox"
+          name="user_agreement"
+          id="user_agreement"
+          value="true"
+        />
+        <label class="newsletter-agreement" for="user_agreement">
+          <span class="newsletter-agreement-checkbox">
+            <svg
+              class="check-icon"
+              width="13"
+              height="13"
+              aria-label="Check icon"
+            >
+              <use href="./img/icons.svg#icon-submit"></use>
+            </svg>
+          </span>
+          Agree to subscribe to the newsletter
+        </label>
+        <button class="newsletter-btn" type="submit">Send</button>
+      </form>
+    </div>
+    <div class="newsletter-right-side">
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/newsletter/newsletter_desk.jpg    1x,
+            ./img/newsletter/newsletter_desk@2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/newsletter/newsletter_tab.jpg    1x,
+            ./img/newsletter/newsletter_tab@2x.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 767.98px)"
+          srcset="
+            ./img/newsletter/newsletter_mob.jpg    1x,
+            ./img/newsletter/newsletter_mob@2x.jpg 2x
+          "
+        />
+        <img
+          class="newsletter-img"
+          src="./img/newsletter/newsletter_tab.jpg"
+          alt="A small brown table and a gray sofa"
+          width="704"
+          height="396"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
