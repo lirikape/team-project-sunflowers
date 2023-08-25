@@ -157,7 +157,14 @@
 }
 
 .about-us-img-container {
-  min-width: 320px;
+  max-width: 736px;
+}
+@media only screen and (max-width: 320px) {
+  .about-us-img-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media only screen and (min-width: 768px) {
   .about-us-bg-img {
