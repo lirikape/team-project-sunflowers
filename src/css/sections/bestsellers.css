@@ -44,6 +44,72 @@
   }
 }
 
+.backdrop-wrapper-first {
+  position: relative;
+  overflow: hidden;
+}
+
+.backdrop-text-first {
+  position: absolute;
+  top: 0;
+  transform: translateY(100%);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(217, 217, 217, 0.7);
+
+  color: var(--blue-font, #0a224a);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  padding: 50px 10px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .backdrop-text-first {
+    font-size: 18px;
+  }
+}
+
+.backdrop-wrapper-first:hover .backdrop-text-first,
+.backdrop-wrappere-first:focus .backdrop-text-first {
+  transform: translateY(0);
+}
+
+@media only screen and (min-width: 768px) {
+  .backdrop-wrapper-first:hover .backdrop-text-first,
+  .backdrop-wrapper-first:focus .backdrop-text-first {
+    transform: translateY(0);
+    padding: 200px 120px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .backdrop-wrapper-firs:hover .backdrop-text-first,
+  .backdrop-wrapper-first:focus .backdrop-text-first {
+    transform: translateY(0);
+    padding: 200px 120px;
+  }
+}
+
+.backdrop-subtext-first {
+  color: currentColor;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .backdrop-subtext-first {
+    font-size: 18px;
+  }
+}
+
 .bestsellers-title {
   color: var(--blue-font, #0a224a);
   font-size: 28px;
@@ -67,28 +133,21 @@
   }
 }
 
-.bestsellers-img {
-  margin-bottom: 14px;
-}
-
-@media only screen and (min-width: 768px) {
-  .bestsellers-img {
-    margin-bottom: 15px;
-  }
-}
-
 .bestsellers-subtitle {
   color: var(--blue-font, #0a224a);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 
+  margin-top: 14px;
   margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 768px) {
   .bestsellers-subtitle {
     font-size: 18px;
+
+    margin-top: 15px;
   }
 }
 
@@ -147,4 +206,48 @@
   .bestsellers-item {
     width: calc((100% - 20px) / 2);
   }
+}
+
+.backdrop-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.backdrop-text {
+  position: absolute;
+  top: 0;
+  transform: translateY(100%);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(217, 217, 217, 0.7);
+
+  color: var(--blue-font, #0a224a);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  padding: 50px 10px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .backdrop-text {
+    padding: 60px 10px 20px;
+  }
+}
+
+.backdrop-wrapper:hover .backdrop-text,
+.backdrop-wrapper:focus .backdrop-text {
+  transform: translateY(0);
+}
+
+.backdrop-subtext {
+  color: currentColor;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
 }
