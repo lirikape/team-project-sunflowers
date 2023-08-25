@@ -1,5 +1,8 @@
-.footer .footer-container {
+.footer {
   background-color: var(--bluefont, #0a224a);
+}
+
+.footer .footer-container {
   position: relative;
 }
 
