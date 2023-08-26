@@ -87,8 +87,10 @@
 
 /* upper-footer styles*/
 
-.footer-logo {
+.footer-logo svg {
   fill: var(--white);
+
+  transition: fill 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .footer-social-links_svg {
@@ -97,6 +99,8 @@
 
 .footer-social-links_svg svg {
   fill: var(--white);
+
+  transition: fill 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* tablet styles */
@@ -127,10 +131,14 @@
 .footer-site-nav {
   display: flex;
 
-  color: var(--white);
-
   font-family: Roboto, sans-serif;
   line-height: 1.5;
+}
+
+.footer-site-nav a {
+  color: var(--white);
+
+  transition: color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* mobile styles */
@@ -223,6 +231,8 @@
 
 .footer-address-maplink {
   display: inline-block;
+
+  transition: color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* mobile styles */
@@ -277,6 +287,8 @@
 
 .footer-telephone {
   display: inline-block;
+
+  transition: color 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* tablet styles */
