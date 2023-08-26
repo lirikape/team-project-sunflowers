@@ -1,29 +1,29 @@
 /* hover/focus styles */
 
-/* .footer-logo:hover svg,
+.footer-logo:hover svg,
 .footer-logo:focus svg {
-  fill: #293efa;
+  fill: #d9d9d9;
 }
 
 .footer-social-link:focus svg,
 .footer-social-link:hover svg {
-  fill: #293efa;
+  fill: #a4ff11;
 }
 
 .footer-site-nav a:hover,
 .footer-site-nav a:focus {
-  color: #293efa;
+  color: #d9d9d9;
 }
 
 .footer-address-maplink:hover,
 .footer-address-maplink:focus {
-  color: #293efa;
+  color: #d9d9d9;
 }
 
 .footer-telephone:hover,
 .footer-telephone:focus {
-  color: #293efa;
-} */
+  color: #d9d9d9;
+}
 
 /* footer container styles */
 

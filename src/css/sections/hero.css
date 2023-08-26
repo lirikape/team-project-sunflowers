@@ -75,7 +75,7 @@
 
   @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
     .section-hero .section-hero-container {
-      background-image: url(../img/hero/hero-bg-second_desktop@2x.jpg),
+      background-image: url(../../img/hero/hero-bg-second_desktop@2x.jpg),
         url(../../img/hero/hero-bg-central_desk@2x.jpg),
         url(../../img/hero/hero-bg-third_desk@2x.jpg);
     }
@@ -120,6 +120,9 @@
   text-decoration: none;
   padding: 12px;
   text-align: center;
+
+  transition: background-color,
+    box-shadow 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 /* hover styles */
@@ -127,6 +130,10 @@
 .section-hero-anchor:hover,
 .section-hero-anchor:focus {
   background-color: #061835;
+
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 /* mobile styles */
