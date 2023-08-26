@@ -1,3 +1,32 @@
+/* hover/focus styles */
+
+/* .footer-logo:hover svg,
+.footer-logo:focus svg {
+  fill: #293efa;
+}
+
+.footer-social-link:focus svg,
+.footer-social-link:hover svg {
+  fill: #293efa;
+}
+
+.footer-site-nav a:hover,
+.footer-site-nav a:focus {
+  color: #293efa;
+}
+
+.footer-address-maplink:hover,
+.footer-address-maplink:focus {
+  color: #293efa;
+}
+
+.footer-telephone:hover,
+.footer-telephone:focus {
+  color: #293efa;
+} */
+
+/* footer container styles */
+
 .footer {
   background-color: var(--bluefont, #0a224a);
 }
@@ -6,12 +35,15 @@
   position: relative;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer .footer-container {
     padding-bottom: 16px;
     padding-top: 42px;
   }
 }
+/* tablet and desktop styles */
 
 @media only screen and (min-width: 768px) {
   .footer .footer-container {
@@ -20,17 +52,23 @@
   }
 }
 
+/* upper-footer positioning */
+
 .footer-upper-style {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer-upper-style {
     margin-bottom: 42px;
   }
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
   .footer-upper-style {
@@ -39,11 +77,15 @@
   }
 }
 
+/* desktop styles */
+
 @media only screen and (min-width: 1440px) {
   .footer-upper-style {
     margin-bottom: 39px;
   }
 }
+
+/* upper-footer styles*/
 
 .footer-logo {
   fill: var(--white);
@@ -56,6 +98,8 @@
 .footer-social-links_svg svg {
   fill: var(--white);
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) {
   .footer-social-links_svg svg {
@@ -70,11 +114,15 @@
   }
 }
 
+/* desktop styles */
+
 @media only screen and (min-width: 1440px) {
   .footer-social-links_svg {
     gap: 30px;
   }
 }
+
+/* anchor-list style */
 
 .footer-site-nav {
   display: flex;
@@ -85,6 +133,8 @@
   line-height: 1.5;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer-site-nav {
     gap: 8px;
@@ -92,6 +142,8 @@
     margin-bottom: 36px;
   }
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) {
   .footer-site-nav {
@@ -116,12 +168,16 @@
   }
 }
 
+/* desktop styles */
+
 @media only screen and (min-width: 1440px) {
   .footer-site-nav {
     gap: 39px;
     left: 404px;
   }
 }
+
+/* address styles */
 
 .footer-address-list {
   color: var(--white);
@@ -132,18 +188,11 @@
   line-height: normal;
 }
 
+/* tablet styles */
+
 @media only screen and (min-width: 768px) {
   .footer-address-list {
     font-size: 19px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .footer-address-list {
-    display: flex;
-    gap: 87px;
-
-    margin-bottom: 35px;
   }
 }
 
@@ -159,15 +208,32 @@
   }
 }
 
+/* desktop */
+
+@media only screen and (min-width: 1440px) {
+  .footer-address-list {
+    display: flex;
+    gap: 87px;
+
+    margin-bottom: 35px;
+  }
+}
+
+/* footer maplink */
+
 .footer-address-maplink {
   display: inline-block;
 }
+
+/* mobile styles */
 
 @media only screen and (max-width: 767.98px) {
   .footer-address-maplink {
     margin-bottom: 8px;
   }
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) {
   .footer-address-maplink {
@@ -179,15 +245,11 @@
   letter-spacing: 0.01em;
 }
 
+/* mobile styles */
+
 @media only screen and (max-width: 767.98px) {
   .footer-tel {
     margin-bottom: 64px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
-  .footer-tel {
-    margin-bottom: 24px;
   }
 }
 
@@ -197,15 +259,27 @@
   }
 }
 
+/* tablet styles */
+
+@media only screen and (min-width: 768px) and (max-width: 1439.98px) {
+  .footer-tel {
+    margin-bottom: 24px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .footer-tel li:nth-child(odd) {
     margin-bottom: 24px;
   }
 }
 
+/* footer-tel */
+
 .footer-telephone {
   display: inline-block;
 }
+
+/* tablet styles */
 
 @media only screen and (min-width: 768px) and (max-width: 1439.98px) {
   .footer-address-mail {
@@ -214,9 +288,13 @@
   }
 }
 
+/* footer-mail */
+
 .footer-address-mail {
   block-size: 22px;
 }
+
+/* agreements styles */
 
 .footer-text-agreement {
   color: var(--white);
@@ -251,6 +329,8 @@
     letter-spacing: 0.07em;
   }
 }
+
+/* hideout style for mail only on phones */
 
 @media only screen and (max-width: 767.98px) {
   .mobile-hideout {
