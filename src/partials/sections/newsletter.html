@@ -76,9 +76,26 @@
         <source
           media="(min-width: 1440px)"
           srcset="
+            ./img/newsletter/newsletter_desk.webp    1x,
+            ./img/newsletter/newsletter_desk@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source
+          media="(min-width: 1440px)"
+          srcset="
             ./img/newsletter/newsletter_desk.jpg    1x,
             ./img/newsletter/newsletter_desk@2x.jpg 2x
           "
+          type="image/jpg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/newsletter/newsletter_tab.webp    1x,
+            ./img/newsletter/newsletter_tab@2x.webp 2x
+          "
+          type="image/webp"
         />
         <source
           media="(min-width: 768px)"
@@ -86,6 +103,15 @@
             ./img/newsletter/newsletter_tab.jpg    1x,
             ./img/newsletter/newsletter_tab@2x.jpg 2x
           "
+          type="image/jpg"
+        />
+        <source
+          media="(max-width: 767.98px)"
+          srcset="
+            ./img/newsletter/newsletter_mob.webp    1x,
+            ./img/newsletter/newsletter_mob@2x.webp 2x
+          "
+          type="image/webp"
         />
         <source
           media="(max-width: 767.98px)"
@@ -93,6 +119,7 @@
             ./img/newsletter/newsletter_mob.jpg    1x,
             ./img/newsletter/newsletter_mob@2x.jpg 2x
           "
+          type="image/jpg"
         />
         <img
           class="newsletter-img"
@@ -100,6 +127,7 @@
           alt="A small brown table and a gray sofa"
           width="704"
           height="396"
+          loading="lazy"
         />
       </picture>
     </div>
